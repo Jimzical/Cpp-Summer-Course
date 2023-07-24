@@ -2,14 +2,15 @@
 
 int hi(void){
     std::cout<<"HII";
-    // "::" -> scope 
+    // "::" -> scope  resolution operator
     return 0;
 }
 int main(){
     int i;
     std::cout << "Enter Number: ";
     std::cin >> i;
-    // ">>" -> Extractor
+    // "<<" -> Extractorṣ̥
+    // ">>" -> Inserter
     std::cout << "The number is:"<< i << std::endl;
     hi();
     return 0;
