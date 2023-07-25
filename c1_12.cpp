@@ -20,6 +20,8 @@ int main(void){
     cout << typeid(x).name() << endl;
     cout << typeid(y).name() << endl;
 
+    cout << x << endl;
+    cout << y << endl;
 
     return 0;
 }
