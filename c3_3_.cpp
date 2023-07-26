@@ -27,7 +27,11 @@ class Time{
 };
 
 int main(int argc, char const *argv[]){
+    Time T1;
+    int dur = 965; 
 
+    T1 = dur; // Conversion constructor is called here
+    T1.Display();
 
     return 0;
 } 
