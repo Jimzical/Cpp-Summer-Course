@@ -6,6 +6,7 @@ class Test{
     public:
         Test(int &t):t(t){}
         int getT(){return t;}
+    
 };
 
 int main(int argc, char const *argv[]){
