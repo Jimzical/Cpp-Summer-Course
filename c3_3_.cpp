@@ -7,7 +7,6 @@ class Time{
     private:
         int hour;
         int mins;
-
     public:
         Time(){
             hour = 0;
@@ -18,6 +17,10 @@ class Time{
             cout << "Conversion happening" << endl;
             hour = t / 60;
             mins = t % 60;
+        }
+
+        void Display(){
+            cout << "Time:" << hour << ":" << mins << endl;
         }
 
         
