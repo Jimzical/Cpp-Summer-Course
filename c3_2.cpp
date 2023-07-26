@@ -18,11 +18,11 @@ class Employee{
         friend class Payroll;
 };
 
+
 class Payroll{
     public:
         void pay(Employee e){
-            cout << "Name: " << e.name << endl;
-            cout << "Salary: " << e.salary << endl;
+            cout << "Name: " << e.name << " with Salary: " << e.salary<< endl;
         }
 };
 
@@ -30,11 +30,13 @@ int main(int argc, char const *argv[]){
     
     Employee e1("John", 10000);
     Employee e2("Tim", 20000);
+    Employee e3("Tom", 30000);
 
     Payroll p;
+
     p.pay(e1);
     p.pay(e2);
-
+    p.pay(e3);
 
     return 0;
 } 
