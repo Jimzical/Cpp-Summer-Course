@@ -20,7 +20,7 @@ class Time{
         }
 
         void Display(){
-            cout << "Time:" << hour << ":" << mins << endl;
+            cout << "Time: " << hour << " hrs and " << mins << " mins"<< endl;
         }
 
         
@@ -28,8 +28,7 @@ class Time{
 
 int main(int argc, char const *argv[]){
     Time T1;
-    int dur = 965; 
-
+    int dur = 948; 
     T1 = dur; // Conversion constructor is called here
     T1.Display();
 
